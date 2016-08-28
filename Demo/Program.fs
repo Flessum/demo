@@ -14,5 +14,6 @@ let main argv =
     branchB ()
     branchX ()
     branchY ()
+    printfn "That's all."
     System.Console.ReadKey () |> ignore
     0 // return an integer exit code
