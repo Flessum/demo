@@ -15,5 +15,6 @@ let main argv =
     branchX ()
     branchY ()
     printfn "That's all."
+    printfn "This is the Flessum demo."
     System.Console.ReadKey () |> ignore
     0 // return an integer exit code
